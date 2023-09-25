@@ -1,0 +1,89 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 D:\MPLAB\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\MPLAB\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 D:\MPLAB\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"96 D:\MPLABXProjects\pro_1.X\main.c
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+"108
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"120
+[v _LCD_string LCD_string `(v  1 e 1 0 ]
+"127
+[v _LCD_initialise LCD_initialise `(v  1 e 1 0 ]
+"134
+[v _LCD_run LCD_run `(v  1 e 1 0 ]
+"148
+[v _main main `(v  1 e 1 0 ]
+"278 D:/MPLAB/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S23 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES32  1 e 1 @8 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"148 D:\MPLABXProjects\pro_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"155
+} 0
+"134
+[v _LCD_run LCD_run `(v  1 e 1 0 ]
+{
+"147
+} 0
+"120
+[v _LCD_string LCD_string `(v  1 e 1 0 ]
+{
+[v LCD_string@str str `*.24uc  1 a 1 wreg ]
+"122
+[v LCD_string@i i `uc  1 a 1 6 ]
+"120
+[v LCD_string@str str `*.24uc  1 a 1 wreg ]
+[v LCD_string@num num `uc  1 p 1 4 ]
+"122
+[v LCD_string@str str `*.24uc  1 a 1 5 ]
+"126
+} 0
+"96
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 wreg ]
+"101
+[v LCD_data@data data `uc  1 a 1 3 ]
+"107
+} 0
+"127
+[v _LCD_initialise LCD_initialise `(v  1 e 1 0 ]
+{
+"133
+} 0
+"108
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+"113
+[v LCD_command@cmd cmd `uc  1 a 1 3 ]
+"119
+} 0
